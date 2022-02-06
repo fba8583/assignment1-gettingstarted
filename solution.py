@@ -18,14 +18,17 @@ def welcome_assignment_answers(question):
         return("Yes")
     elif question == "Is a hashed message supposed to be un-hashed? - Yes/No":
         return("No")
-    elif question == "What is the MD5 hashing value to the following message:'NYU Computer Networking'? - int":
+    elif question == "What is the MD5 hashing value to the following message:'NYU Computer Networking'?":
         return("42b76fe51778764973077a5a94056724")
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
         return("No")
-    elif question == "What layer from the TCP/IP model the protocol DHCP belongs to? - int":
+    elif question == "What layer from the TCP/IP model the protocol DHCP belongs to?":
         return(7)
-    elif question == "What layer of the TCP/IP model the protocol TCP belongs to? - int":
+    elif question == "What layer of the TCP/IP model the protocol TCP belongs to?":
         return(4)
+	else:
+		return None
+		
  #   return(4)
 
 
