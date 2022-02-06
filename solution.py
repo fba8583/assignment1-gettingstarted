@@ -31,7 +31,6 @@ def welcome_assignment_answers(question):
 
 #   return(4)
 
-
 # Complete all the questions.
 
 
