@@ -7,13 +7,12 @@ answer = 4
 def welcome_assignment_answers(question):
     # Students do not have to follow the skeleton for this assignment.
     # Another way to implement is using a "case" statements similar to C.
-    global answer
+
     if question == "Are encoding and encryption the same? - Yes/No":
         answer = "No"
     elif question == "Is it possible to decrypt a message without a key? - Yes/No":
         answer = "No"
-    elif question == "What is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA? "\
-                     "- string":
+    elif question == "What is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA? - string":
         answer = "mtls"
     elif question == "Is it possible to decode a message without a key? - Yes/No":
         answer = "Yes"
@@ -27,7 +26,7 @@ def welcome_assignment_answers(question):
         answer = 7
     elif question == "What layer of the TCP/IP model the protocol TCP belongs to? - int":
         answer = 4
-    return answer
+    return(answer)
 
 
 # Complete all the questions.
