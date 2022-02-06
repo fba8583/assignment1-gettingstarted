@@ -25,7 +25,7 @@ def welcome_assignment_answers(question):
     elif question == "What layer from the TCP/IP model the protocol DHCP belongs to?":
         return(7)
     elif question == "What layer of the TCP/IP model the protocol TCP belongs to?":
-        return(3)
+        return("3")
     else:
         return None
 
