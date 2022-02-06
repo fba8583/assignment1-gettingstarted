@@ -28,7 +28,7 @@ def welcome_assignment_answers(question):
         return 3
     else:
         return
-return
+
 
 # Complete all the questions.
 
