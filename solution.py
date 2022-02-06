@@ -9,7 +9,7 @@ def welcome_assignment_answers(question):
     # Another way to implement is using a "case" statements similar to C.
     
     if question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
-        return "mtls"
+        return '"mtls"'
     elif question == "Are encoding and encryption the same? - Yes/No":
         return "No"
     elif question == "Is it possible to decrypt a message without a key? - Yes/No":
@@ -23,9 +23,9 @@ def welcome_assignment_answers(question):
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
         return "No"
     elif question == "What layer from the TCP/IP model the protocol DHCP belongs to?":
-        return 7
+        return int(7)
     elif question == "What layer of the TCP/IP model the protocol TCP belongs to?":
-        return 3
+        return int(3)
     else:
         return
 
