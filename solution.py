@@ -9,7 +9,7 @@ def welcome_assignment_answers(question):
     # Another way to implement is using a "case" statements similar to C.
     
     if question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
-        return '"mtls"'
+        return 'mtls'
     elif question == "Are encoding and encryption the same? - Yes/No":
         return "No"
     elif question == "Is it possible to decrypt a message without a key? - Yes/No":
@@ -18,13 +18,13 @@ def welcome_assignment_answers(question):
         return "Yes"
     elif question == "Is a hashed message supposed to be un-hashed? - Yes/No":
         return "No"
-    elif question == "What is the MD5 hashing value to the following message:'NYU Computer Networking'?":
+    elif question == "What is the MD5 hashing value to the following message:'NYU Computer Networking'? - Use MD5 hash generator and use the answer in your code":
         return "42b76fe51778764973077a5a94056724"
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
         return "No"
-    elif question == "What layer from the TCP/IP model the protocol DHCP belongs to?":
+    elif question == "What layer from the TCP/IP model the protocol DHCP belongs to? - The answer should be a nummeric number":
         return int(7)
-    elif question == "What layer of the TCP/IP model the protocol TCP belongs to?":
+    elif question == "What layer of the TCP/IP model the protocol TCP belongs to? - The answer should be a nummeric number":
         return int(3)
     else:
         return
@@ -37,6 +37,13 @@ if __name__ == "__main__":
     # use this space to debug and verify that the program works
     debug_question = "Are encoding and encryption the same? - Yes/No"
     print(welcome_assignment_answers(debug_question))
+    debug_question = "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?"
+    print(welcome_assignment_answers(debug_question))
+    debug_question = "Is it possible to decrypt a message without a key? - Yes/No"
+    print(welcome_assignment_answers(debug_question))
+    debug_question = "Is a hashed message supposed to be un-hashed? - Yes/No"
+    print(welcome_assignment_answers(debug_question))
+
 
 # ##Questions:
 # ##"In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?"
